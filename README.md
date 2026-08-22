@@ -21,10 +21,10 @@ opendcdiag-arm-rpm-22.03/
 
 ## 用法
 
-本仓库作为 [opendcdiag-arm](https://github.com/wangxumarshall/opendcdiag-arm) 的 git submodule,路径 `third-part/rpms-22.03`。目标机离线安装时:
+本仓库作为 [opendcdiag-arm](https://github.com/wangxumarshall/opendcdiag-arm) 的 git submodule,路径 `third-party/rpms/openEuler-22.03`。目标机离线安装时:
 
 ```bash
-cd third-part/rpms-22.03/openEuler-22.03LTS_SP4
+cd third-party/rpms/openEuler-22.03/openEuler-22.03LTS_SP4
 ../../../../scripts/offline-build/install-deps.sh .
 ```
 
